@@ -8,9 +8,7 @@ REFERÊNCIAS
 https://developers.google.com/assistant.
 
 
-- BIBLIOTECA ESP32 PARA UTILIZAR O FIREBASE REALTIME DATABASE - Para utilizar a biblioteca do Firebase Realtime Database no ESP32, ler o GITHUB do criador da biblioteca no URL:
-
-https://github.com/mobizt/Firebase-ESP-Client.
+- BIBLIOTECA ESP32 PARA UTILIZAR O FIREBASE REALTIME DATABASE - Para utilizar a biblioteca do Firebase Realtime Database no ESP32, ler o GITHUB do criador da biblioteca no URL: https://github.com/mobizt/Firebase-ESP-Client.
 
 
 - FIREBASE REALTIME DATABASE DOCUMENTAÇÃO: https://firebase.google.com/docs/database
