@@ -1,5 +1,6 @@
 INTRODUÇÃO
-- Este GITHUB leva em consideração que o visitante leu o TCC e veio em busca dos códigos para utilizar como referência.
+- Este GITHUB leva em consideração que o visitante leu o TCC e veio em busca dos códigos para utilizar como referência num projeto próprio, ou com a intenção de dar continuidade neste projeto.
+- O tópico Referência providencia tutoriais e documentações importântes ensinando a utilizar as ferramentas que foram utilizadas para o desenvolvimento do projeto.
 
 
 REFERÊNCIAS
