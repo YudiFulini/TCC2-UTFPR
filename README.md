@@ -1,6 +1,5 @@
-//---------------------------------------------------------------------------------------------
-//CONTROLE DE MOVIMENTAÇÃO DE CADEIRA DE RODAS POR COMANDOS DE VOZ UTILIZANDO GOOGLE ASSISTANT
-//---------------------------------------------------------------------------------------------
+CONTROLE DE MOVIMENTAÇÃO DE CADEIRA DE RODAS POR COMANDOS DE VOZ UTILIZANDO GOOGLE ASSISTANT
+
 
 INTRODUÇÃO
 - Este GITHUB leva em consideração que o visitante leu o TCC e veio em busca dos códigos para utilizar como referência num projeto próprio, ou com a intenção de dar continuidade neste projeto.
