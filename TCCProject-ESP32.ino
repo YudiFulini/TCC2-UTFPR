@@ -6,12 +6,12 @@
 #include <ArduinoJson.h>
 
 //DEFINE DATABASE OBJECTS
-#define API_KEY "AIzaSyBkh0boLud2IG1rdQNpIxRR-BDDHwgtZoM"
-#define DATABASE_URL "https://tcc2-3e0a4-default-rtdb.firebaseio.com"
-#define USER_EMAIL "yudifulini@gmail.com"
-#define USER_PASSWORD "naumseiasenha300"
+#define API_KEY "INSERIR A API KEY DO SEU FIREBASE" //substituir pelo seu
+#define DATABASE_URL "INSERIR A URL DO SEU REALTIME DATABASE" //substituir pelo seu
+#define USER_EMAIL "inserir seu gmail da conta do utilizada no Firebase" //substituir pelo seu
+#define USER_PASSWORD "inserir a senha do seu gmail" //substituir pelo seu
 
-#define DATABASE_PATCH "/Wheelchairs/YudiChair"
+#define DATABASE_PATCH "/caminho1/caminho2" //inserir o caminho dos seus dados
 
 FirebaseAuth auth;
 FirebaseConfig config;
@@ -20,9 +20,9 @@ FirebaseData fbdo;
 FirebaseData fbdoStream;
 
 //-------------------------------WIFI
-#define WIFI_SSID "RogueNetwork"
-#define WIFI_PASSWORD "subtlety"
-
+#define WIFI_SSID "RogueNetwork" //inserir o nome do seu wifi
+#define WIFI_PASSWORD "subtlety" //inserir a senha do seu wifi
+//observação, o ESP32 não aceita frequencia 5.0Ghz, deve ser 2.4Ghz
 
 //-------------------------------Control Objects
 String Command = "";
@@ -302,7 +302,7 @@ void updateFirebase(const char* CommandDB, const char* DirectionDB, int Distance
   updateData.add("distance", DistanceDB);
   updateData.add("unity", UnityDB);
 
-  if (Firebase.RTDB.updateNodeSilent(&fbdo, "/Wheelchairs/YudiChair", &updateData)) {
+  if (Firebase.RTDB.updateNodeSilent(&fbdo, DATABASE_PATCH, &updateData)) {
     Serial.println(fbdo.dataPath());
     Serial.println(fbdo.dataType());
     Serial.println(fbdo.jsonString()); 
