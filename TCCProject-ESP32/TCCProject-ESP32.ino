@@ -20,8 +20,8 @@ FirebaseData fbdo;
 FirebaseData fbdoStream;
 
 //-------------------------------WIFI
-#define WIFI_SSID "RogueNetwork" //inserir o nome do seu wifi
-#define WIFI_PASSWORD "subtlety" //inserir a senha do seu wifi
+#define WIFI_SSID "Inserir nome do seu WIFI aqui" //inserir o nome do seu wifi
+#define WIFI_PASSWORD "Inserir senha do seu WIFI aqui" //inserir a senha do seu wifi
 //observação, o ESP32 não aceita frequencia 5.0Ghz, deve ser 2.4Ghz
 
 //-------------------------------Control Objects
