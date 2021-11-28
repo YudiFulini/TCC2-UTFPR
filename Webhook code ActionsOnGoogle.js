@@ -3,10 +3,20 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 
 
+//------------------------------------------------
+//MUDAR NO SEU CÓDIGO-----------------------------
+//------------------------------------------------
+const yourURLhere = "https://SeuURLaqui.firebaseio.com/";
+const yourDataPathHere = "/Caminho1/Caminho2";
+
+
+
+
+
 ///-----------------------------------------------
 //SET ACTIONS ON GOOGLE OBJECTS-------------------
 //------------------------------------------------
-admin.initializeApp({databaseURL: "https://tcc2-3e0a4-default-rtdb.firebaseio.com/"});
+admin.initializeApp({databaseURL: yourURLhere});
 const db = admin.database();
 
 
@@ -121,7 +131,7 @@ app.handle('softReset', conv => {
 function writeCommand(command, direction, distance, unity) {
   var response = "";
   try{
-    db.ref('/Wheelchairs/YudiChair').set({
+    db.ref(yourDataPathHere).set({
     command: command,
     direction: direction,
     distance: distance,
