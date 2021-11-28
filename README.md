@@ -13,6 +13,7 @@ INTRODUÇÃO
 1. ACTIONS ON GOOGLE
 - Primeiramente, assistir ao vídeo na referência para melhor entendimento de como programar conversações, criar scenes, intents, types e chamar webhook.  
 - Criar o seu projeto da actions on google. (https://console.actions.google.com/u/0/)
+- Criar os types, scenes, intents, types, dentre outros do seu projeto. 
 - Em webhook, escolher "Inline Cloud Functions" e realizar o primeiro deploy, isto deve criar um projeto para o usuário no Firebase.
 - Entrar no (https://console.firebase.google.com/u/0/), entrar no projeto com o mesmo nome que criou para o Actions on Google, criar um Realtime Database e copiar a URL da sua database. 
 - Baixar o código em "Webhook code ActionOnGoogle.js" disponibilizado neste repositório.  
