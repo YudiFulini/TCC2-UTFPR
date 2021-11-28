@@ -27,8 +27,28 @@ INTRODUÇÃO
 obs: a parte de programar a conversação, criação dos types e demais devem ser realizadas antes de colar o código no WEBHOOK. Prints com os types criados e demais detalhes serão upados para o depositório, porém infelizmente não há como copiar e colar esta parte do desenvolvimento. Para informações sobre como desenvolver, consultar o vídeo.
 
 -----  
-2. ESP32
-- [continuar].
+2. REALTIME DATABASE
+- Configurar o banco de dados para liberar o acesso as informações para os usuários autenticados, é necessário configurar os dados em Realtime Database -> Rules
+- Em rules, copiar o seguinte código {
+  "rules": {
+    ".read": "auth.uid != null",
+    ".write": "auth.uid != null"
+  }
+}
+- Clicar em Publish. Ao finalizar este passo, os usuários que são autenticados terão acesso à leitura e escrita ao Realtime Database.
+
+
+-----  
+3. ESP32
+- Segue o link para configurar a IDE do Arduino para programar o ESP32: https://www.usinainfo.com.br/blog/programar-esp32-com-a-ide-arduino-tutorial-completo/
+- Baixar o código disponibilizado na pasta TCCProject-ESP32.
+- Baixar e incluir as Bibliotecas de ArduinoJson.h e Firebase_ESP_Client.h em Sketch->Include Library->Manage Libraries
+- No código disponibilizado, mudar a API_KEY do seu Firebase (encontrado em projecct settings do seu projeto de firebase, na Firebase Console)
+- Mudar a DATABASE_URL, USER_EMAIL e USER_PASSWORD (Detalhes de como habilitar autenticação por email e password é encontrado no link https://github.com/mobizt/Firebase-ESP-Client)
+- Mudar a Database_Patch para o caminho onde os dados estão sendo upados.
+- Mudar o nome e sennha do seu wifi
+- [OPCIONAL] mudar os pinos de I/Os caso desejar.
+- Compile e Download do código para o ESP32.
   
 -----  
 REFERÊNCIAS  
