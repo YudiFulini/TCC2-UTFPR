@@ -6,8 +6,8 @@ const admin = require('firebase-admin');
 //------------------------------------------------
 //MUDAR NO SEU CÓDIGO-----------------------------
 //------------------------------------------------
-const yourURLhere = "https://SeuURLaqui.firebaseio.com/";
-const yourDataPathHere = "/Caminho1/Caminho2";
+const yourURLhere = "https://IDdoSeuProjetoAqui.firebaseio.com/"; //inserir o seu URL aqui
+const yourDataPathHere = "/Caminho1/Caminho2"; //Inserir o caminho que deseja guardar as informações aqui
 
 
 
