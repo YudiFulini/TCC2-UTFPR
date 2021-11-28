@@ -1,12 +1,14 @@
 CONTROLE DE MOVIMENTAÇÃO DE CADEIRA DE RODAS POR COMANDOS DE VOZ UTILIZANDO GOOGLE ASSISTANT  
 -----  
 [ESTE REPOSITÓRIO AINDA ESTÁ EM FASE DE DESENVOLVIMENTO, PORTANTO ALGUNS PASSOS E TUTORIAIS PODEM ESTAR FALTANTES]  
+  
 -----  
 INTRODUÇÃO  
 - Este repositório leva em consideração que o visitante leu o TCC e veio em busca dos códigos para utilizar como referência num projeto próprio, ou com a intenção de dar continuidade neste projeto.  
 - Este repositório têm como objetivo compartilhar os códigos que foram programados durante o desenvolvimento do projeto, para que o visitante possa utilizar como referência ao desenvolver o próprio projeto. Para aprender a como programar no Actions on Google, a utilizar o Firebase Realtime Database e utilizar a biblioteca do banco de dados no ESP32, consultar as REFERÊNCIAS disponibilizadas ao final deste repositório.  
 - O tópico Referência providencia tutoriais e documentações importântes ensinando a utilizar as ferramentas que foram utilizadas para o desenvolvimento do projeto.  
   
+-----
 1. ACTIONS ON GOOGLE
 - Primeiramente, assistir ao vídeo na referência para melhor entendimento de como programar conversações, criar scenes, intents, types e chamar webhook.  
 - Criar o seu projeto da actions on google. (https://console.actions.google.com/u/0/)
@@ -21,9 +23,11 @@ INTRODUÇÃO
 - Se tudo ocorreu com sucesso, é possível observar as mudanças no Realtime Database a partir do Firebase Console.
   
 obs: a parte de programar a conversação, criação dos types e demais devem ser realizadas antes de colar o código no WEBHOOK. Prints com os types criados e demais detalhes serão upados para o depositório, porém infelizmente não há como copiar e colar esta parte do desenvolvimento. Para informações sobre como desenvolver, consultar o vídeo.
-  
+-----
 2. ESP32
+- [continuar].
   
+-----
 REFERÊNCIAS  
   
 - ACTIONS ON GOOGLE - Para aprender a programar no Actions on Google, assistir o seguinte vídeo:https://www.youtube.com/watch?v=Z1hxvniJ18s&list=WL&index=8&ab_channel=GoogleDevelopers. Para mais detalhes, buscar a documentação do Google Assistant:
